@@ -10,4 +10,6 @@ export const countContacts = async () => {
     }
 };
 
-console.log(await countContacts());
+console.log("Кількість контактів: ", await countContacts());
+
+// npm run count

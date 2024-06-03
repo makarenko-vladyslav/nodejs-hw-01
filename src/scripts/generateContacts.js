@@ -11,8 +11,9 @@ const generateContacts = async (number) => {
       phone: faker.string.octal({ length: 7, prefix: '479-' }),
       email: faker.internet.email().toLowerCase(),
       job: faker.person.jobTitle(),
-    });ß
+    });
   }
+  console.log(contacts);
 };
 
 await generateContacts(5);
